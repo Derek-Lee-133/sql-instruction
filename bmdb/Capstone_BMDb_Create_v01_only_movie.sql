@@ -1,1 +1,1 @@
-select * from movie;
+SELECT * FROM bmdb.movie;
