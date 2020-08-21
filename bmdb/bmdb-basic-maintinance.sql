@@ -18,6 +18,19 @@ update movie
     
     select * from movie;
     
-delete from movie
-where id = 16;
 
+
+select * from actor;
+select * from credit;
+
+delete 
+from credit
+where id = 5;
+
+update actor
+set id = 6
+where firstname = 'norman';
+
+insert into credit
+values
+(5, 6, 9,'Murphy MacManus');

@@ -16,6 +16,8 @@ insert into movie
     
     select * from credit;
     
+    
+    
     insert into credit 
     ( actorid, movieid, role) values
     
@@ -24,3 +26,22 @@ insert into movie
             
 select * from actor
 where firstname = 'brandon';
+
+update actor
+	set id = 6
+    where id = 8;
+    
+    update actor
+    
+    set id = 6
+    where id = 8;
+delete from actor
+	where id = 8;
+ select * from credit;
+ 
+
+
+delete from actor
+
+where id = 8; 
+
