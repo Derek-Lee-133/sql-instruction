@@ -9,10 +9,18 @@ insert into movie
  
  select * from actor;
  insert into actor 
-	(firstname, lastname, gender, birthdate)
-    values
 
-    ('Norman', 'Reedus', 'M', '1969-01-06');
+    values
+    ('Bruce', 'Willis', 'M','1955-03-19'),
+    ('John', 'Cusak', 'M','1966-06-28'),
+    ('Cleavon','Little', 'M', '1939-06-01'),
+    ('Diane', 'Lane', 'F', '1965-01-22'),
+    ('Christopher', 'Lambert', 'M', '1957-03-29'),
+    ('Sigourney', 'Weaver', 'F', '1949-10-08'),
+    ('Mia', 'Sara', 'F','1957-06-19'),
+    ('Nigel', 'Terry', 'M', '1945-08-15'),
+    ('Val', 'Kilmer', 'M', '1959-12-31');
+    
     
     select * from credit;
     
@@ -20,9 +28,9 @@ insert into movie
     
     insert into credit 
     ( actorid, movieid, role) values
-    
-    ( 5, 19, 'Eric');
-            
+    ( 12,6,'Ellen Aim'),
+    ( 11, 16, 'King Arthur'),
+    ( 17, 12, 'Iceman');      
             
 select * from actor
 where firstname = 'brandon';
