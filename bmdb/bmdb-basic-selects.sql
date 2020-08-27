@@ -1,5 +1,6 @@
 -- Select all movies
-SELECT * FROM movie;
+SELECT * 
+FROM movie;
 
 -- Select a movie by id
 -- Uses a 'where' clause
